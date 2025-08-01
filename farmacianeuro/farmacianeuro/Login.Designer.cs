@@ -1,16 +1,16 @@
 ﻿namespace farmacianeuro
 {
-    partial class Login
+    partial class login
     {
         /// <summary>
-        /// Variável de designer necessária.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Limpar os recursos que estão sendo usados.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,150 +20,122 @@
             base.Dispose(disposing);
         }
 
-        #region Código gerado pelo Windows Form Designer
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Método necessário para suporte ao Designer - não modifique 
-        /// o conteúdo deste método com o editor de código.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.txtemail = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.txtusuario = new System.Windows.Forms.TextBox();
             this.txtsenha = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtcargo = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnentrar = new System.Windows.Forms.Button();
+            this.lblaviso = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtNome
+            // pictureBox1
             // 
-            this.txtNome.Location = new System.Drawing.Point(88, 176);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(301, 22);
-            this.txtNome.TabIndex = 1;
-            this.txtNome.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // txtemail
-            // 
-            this.txtemail.Location = new System.Drawing.Point(88, 256);
-            this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(648, 22);
-            this.txtemail.TabIndex = 2;
-            this.txtemail.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.pictureBox1.Location = new System.Drawing.Point(168, 58);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(170, 147);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(88, 153);
+            this.label1.Location = new System.Drawing.Point(218, 228);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Nome";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Size = new System.Drawing.Size(72, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "User Login";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(91, 237);
+            this.label2.Location = new System.Drawing.Point(165, 271);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 16);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Email";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.label2.Size = new System.Drawing.Size(98, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Usuário (email)";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 9);
+            this.label3.Location = new System.Drawing.Point(165, 319);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 16);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "CADASTRAR";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label3.Size = new System.Drawing.Size(46, 16);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Senha";
             // 
-            // label4
+            // txtusuario
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(91, 321);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 16);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Senha";
+            this.txtusuario.Location = new System.Drawing.Point(168, 290);
+            this.txtusuario.Name = "txtusuario";
+            this.txtusuario.Size = new System.Drawing.Size(170, 22);
+            this.txtusuario.TabIndex = 4;
             // 
             // txtsenha
             // 
-            this.txtsenha.Location = new System.Drawing.Point(88, 340);
+            this.txtsenha.Location = new System.Drawing.Point(168, 338);
             this.txtsenha.Name = "txtsenha";
-            this.txtsenha.Size = new System.Drawing.Size(648, 22);
-            this.txtsenha.TabIndex = 7;
+            this.txtsenha.Size = new System.Drawing.Size(170, 22);
+            this.txtsenha.TabIndex = 5;
             // 
-            // label5
+            // btnentrar
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(432, 153);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 16);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Cargo";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.btnentrar.Location = new System.Drawing.Point(211, 409);
+            this.btnentrar.Name = "btnentrar";
+            this.btnentrar.Size = new System.Drawing.Size(90, 29);
+            this.btnentrar.TabIndex = 6;
+            this.btnentrar.Text = "Entrar";
+            this.btnentrar.UseVisualStyleBackColor = true;
+            this.btnentrar.Click += new System.EventHandler(this.btnentrar_Click);
             // 
-            // txtcargo
+            // lblaviso
             // 
-            this.txtcargo.Location = new System.Drawing.Point(435, 176);
-            this.txtcargo.Name = "txtcargo";
-            this.txtcargo.Size = new System.Drawing.Size(301, 22);
-            this.txtcargo.TabIndex = 11;
+            this.lblaviso.AutoSize = true;
+            this.lblaviso.Location = new System.Drawing.Point(230, 380);
+            this.lblaviso.Name = "lblaviso";
+            this.lblaviso.Size = new System.Drawing.Size(0, 16);
+            this.lblaviso.TabIndex = 7;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(88, 405);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 33);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Cadastrar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_2);
-            // 
-            // Login
+            // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtcargo);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.ClientSize = new System.Drawing.Size(517, 450);
+            this.Controls.Add(this.lblaviso);
+            this.Controls.Add(this.btnentrar);
             this.Controls.Add(this.txtsenha);
+            this.Controls.Add(this.txtusuario);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtemail);
-            this.Controls.Add(this.txtNome);
-            this.Name = "Login";
-            this.Text = "Form1";
+            this.Controls.Add(this.pictureBox1);
+            this.Name = "login";
+            this.Text = "login";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.PageSetupDialog pageSetupDialog1;
-        private System.Windows.Forms.TextBox txtNome;
-        private System.Windows.Forms.TextBox txtemail;
+
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtusuario;
         private System.Windows.Forms.TextBox txtsenha;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtcargo;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnentrar;
+        private System.Windows.Forms.Label lblaviso;
     }
 }
-

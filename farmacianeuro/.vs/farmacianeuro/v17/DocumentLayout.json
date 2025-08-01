@@ -3,31 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|c:\\users\\aluno\\documents\\github\\farmaneuro\\farmacianeuro\\farmacianeuro\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|solutionrelative:farmacianeuro\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|c:\\users\\aluno\\documents\\github\\farmaneuro\\farmacianeuro\\farmacianeuro\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|solutionrelative:farmacianeuro\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|c:\\users\\aluno\\documents\\github\\farmaneuro\\farmacianeuro\\farmacianeuro\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|solutionrelative:farmacianeuro\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|c:\\users\\aluno\\documents\\github\\farmaneuro\\farmacianeuro\\farmacianeuro\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|solutionrelative:farmacianeuro\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|c:\\users\\aluno\\documents\\github\\farmaneuro\\farmacianeuro\\farmacianeuro\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|solutionrelative:farmacianeuro\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|c:\\users\\aluno\\documents\\github\\farmaneuro\\farmacianeuro\\farmacianeuro\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|c:\\users\\aluno\\documents\\github\\farmaneuro\\farmacianeuro\\farmacianeuro\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|solutionrelative:farmacianeuro\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|c:\\users\\aluno\\documents\\github\\farmaneuro\\farmacianeuro\\farmacianeuro\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|solutionrelative:farmacianeuro\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|c:\\users\\aluno\\documents\\github\\farmaneuro\\farmacianeuro\\farmacianeuro\\classe\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|solutionrelative:farmacianeuro\\classe\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|c:\\users\\aluno\\documents\\github\\farmaneuro\\farmacianeuro\\farmacianeuro\\cadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|solutionrelative:farmacianeuro\\cadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|solutionrelative:farmacianeuro\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|c:\\users\\aluno\\documents\\github\\farmaneuro\\farmacianeuro\\farmacianeuro\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|solutionrelative:farmacianeuro\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|c:\\users\\aluno\\documents\\github\\farmaneuro\\farmacianeuro\\farmacianeuro\\profsaude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\profsaude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7B97774B-C8D5-42DE-AD62-2EDDEEB45AEE}|farmacianeuro\\farmacianeuro.csproj|solutionrelative:farmacianeuro\\profsaude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -38,24 +50,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\Login.cs",
-              "RelativeDocumentMoniker": "farmacianeuro\\Login.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\Login.cs [Design]",
-              "RelativeToolTip": "farmacianeuro\\Login.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\login.cs",
+              "RelativeDocumentMoniker": "farmacianeuro\\login.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\login.cs [Design]",
+              "RelativeToolTip": "farmacianeuro\\login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T13:21:28.54Z",
+              "WhenOpened": "2025-08-01T12:54:07.821Z",
               "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\login.cs",
+              "RelativeDocumentMoniker": "farmacianeuro\\login.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\login.cs",
+              "RelativeToolTip": "farmacianeuro\\login.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAD8AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:04:12.829Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "user.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\classe\\user.cs",
+              "RelativeDocumentMoniker": "farmacianeuro\\classe\\user.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\classe\\user.cs",
+              "RelativeToolTip": "farmacianeuro\\classe\\user.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:48:56.172Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cadastro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\Cadastro.cs",
+              "RelativeDocumentMoniker": "farmacianeuro\\Cadastro.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\Cadastro.cs [Design]",
+              "RelativeToolTip": "farmacianeuro\\Cadastro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T13:21:28.54Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "menu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\menu.cs",
               "RelativeDocumentMoniker": "farmacianeuro\\menu.cs",
@@ -67,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "menu.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\menu.cs",
               "RelativeDocumentMoniker": "farmacianeuro\\menu.cs",
@@ -80,25 +132,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\Login.cs",
-              "RelativeDocumentMoniker": "farmacianeuro\\Login.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\Login.cs",
-              "RelativeToolTip": "farmacianeuro\\Login.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAkwFQAAAA/AAAA",
+              "DocumentIndex": 3,
+              "Title": "Cadastro.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\Cadastro.cs",
+              "RelativeDocumentMoniker": "farmacianeuro\\Cadastro.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\Cadastro.cs",
+              "RelativeToolTip": "farmacianeuro\\Cadastro.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAgwFwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T13:21:32.847Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\Login.Designer.cs",
-              "RelativeDocumentMoniker": "farmacianeuro\\Login.Designer.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\Login.Designer.cs",
-              "RelativeToolTip": "farmacianeuro\\Login.Designer.cs",
+              "DocumentIndex": 6,
+              "Title": "Cadastro.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\Cadastro.Designer.cs",
+              "RelativeDocumentMoniker": "farmacianeuro\\Cadastro.Designer.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\Cadastro.Designer.cs",
+              "RelativeToolTip": "farmacianeuro\\Cadastro.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T12:51:25.372Z",
@@ -106,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "profsaude.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\profsaude.cs",
               "RelativeDocumentMoniker": "farmacianeuro\\profsaude.cs",
@@ -118,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "clientes.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\farmaneuro\\farmacianeuro\\farmacianeuro\\clientes.cs",
               "RelativeDocumentMoniker": "farmacianeuro\\clientes.cs",

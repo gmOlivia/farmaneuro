@@ -7,98 +7,69 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-    using MySql.Data.MySqlClient;
+using farmacianeuro.classe;
+using MySql.Data.MySqlClient;
 using Org.BouncyCastle.Crypto.Generators;
 
 namespace farmacianeuro
 {
-    public partial class Login : Form
+    public partial class login : Form
     {
         MySqlConnection conexao;
-       
-        public Login()
+        public login()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            menu menu = new menu();
-            menu.ShowDialog();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_2(object sender, EventArgs e)
+        private void btnentrar_Click(object sender, EventArgs e)
         {
             try
             {
-                /// <summary>
-                /// data_source é o caminho do banco de dados
-                /// </summary>
+                if(txtusuario.Text == "")
+                {
+                    lblaviso.Text = "Usuário está vazio!";
+                    return;
+                }
+                if(txtsenha.Text == "")
+                {
+                    lblaviso.Text = "Senha está vazio!";
+                    return;
+                }
                 string data_source = "datasource=localhost;username=root;password='';database=farmacia";
-                conexao = new MySqlConnection(data_source);
-                string sql = "insert into usuario(nome,email,senha,cargo) values (@nome,@email,@senha,@cargo)";
-                MySqlCommand command = new MySqlCommand(sql, conexao);
-                string senha = txtsenha.Text.Trim();// limpar os espaços gerados
-               // string senhahash = BCrypt.Net.BCrypt.HashPassword(senha);
-                command.Parameters.AddWithValue("@nome", txtNome.Text);
-                command.Parameters.AddWithValue("@email", txtemail.Text);
-                command.Parameters.AddWithValue("@senha", senha);
-                command.Parameters.AddWithValue("@cargo", txtcargo.Text);
-                conexao.Open();
-                if (command.ExecuteNonQuery() == 1)
-                {
-                    MessageBox.Show("Cadastro com sucesso");
-                }
-                else
-                {
-                    MessageBox.Show("Erro no cadastro");
-                }
-                conexao.Close();
 
-            }
-            catch (Exception ex)
+                conexao = new MySqlConnection(data_source);
+                string sql = "select codigo,nome,email,senha,ativo, cargo from usuario where email=@email";
+
+                MySqlCommand comando = new MySqlCommand(sql, conexao);
+                comando.Parameters.AddWithValue("@email", txtusuario.Text);
+                conexao.Open();
+                MySqlDataReader reader = comando.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    Sessaouser.Cargouser = Convert.ToInt32(reader["cargo"]);
+                    Sessaouser.UsuarioLogado = reader["nome"].ToString();
+                    Sessaouser.Codigo = Convert.ToInt32(reader["codigo"]);
+                    string senha = reader["senha"].ToString();
+                    int ativo = Convert.ToInt32(reader["ativo"].ToString());
+                    if (ativo == 0)
+                    {
+                        lblaviso.Text = "Sua conta está desativada";
+                        return;
+                    }
+                    else
+                    {
+                        if(BCrypt.Net.BCrypt.Verify(txtsenha.Text, senha))
+                        {
+                            MessageBox.Show($"Bem Vindo, {Sessaouser.UsuarioLogado} ");
+                            menu principal = new menu();
+                            principal.Show();
+                        }
+                    }
+                }
+            }catch (Exception ex)
             {
-                MessageBox.Show("Erro:" + ex.Message);
+                MessageBox.Show("Erro:"+ ex.Message);
             }
         }
     }

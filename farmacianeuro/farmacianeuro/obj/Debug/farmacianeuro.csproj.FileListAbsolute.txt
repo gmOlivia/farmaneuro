@@ -46,6 +46,7 @@ C:\Users\Aluno\Documents\GitHub\farmaneuro\farmacianeuro\farmacianeuro\bin\Debug
 C:\Users\Aluno\Documents\GitHub\farmaneuro\farmacianeuro\farmacianeuro\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Aluno\Documents\GitHub\farmaneuro\farmacianeuro\farmacianeuro\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Aluno\Documents\GitHub\farmaneuro\farmacianeuro\farmacianeuro\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\Aluno\Documents\GitHub\farmaneuro\farmacianeuro\farmacianeuro\obj\Debug\farmacianeuro.csproj.SuggestedBindingRedirects.cache
-C:\Users\Aluno\Documents\GitHub\farmaneuro\farmacianeuro\farmacianeuro\obj\Debug\farmacianeuro.exe.config
 C:\Users\Aluno\Documents\GitHub\farmaneuro\farmacianeuro\farmacianeuro\obj\Debug\farmacia.865190F2.Up2Date
+C:\Users\Aluno\Documents\GitHub\farmaneuro\farmacianeuro\farmacianeuro\obj\Debug\farmacianeuro.Cadastro.resources
+C:\Users\Aluno\Documents\GitHub\farmaneuro\farmacianeuro\farmacianeuro\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\Aluno\Documents\GitHub\farmaneuro\farmacianeuro\farmacianeuro\bin\Debug\BCrypt.Net-Next.xml
