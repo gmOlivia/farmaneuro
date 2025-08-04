@@ -21,5 +21,19 @@ namespace farmacianeuro
         {
 
         }
+
+        private void gerenciarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ESTg f1 = new ESTg();
+            f1.MdiParent = this;
+            f1.Show();
+        }
+
+        private void cadastrarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ESTc f2 = new ESTc();
+            f2.MdiParent = this;
+            f2.Show();
+        }
     }
 }

@@ -108,6 +108,18 @@
     <Compile Include="clientes.Designer.cs">
       <DependentUpon>clientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="ESTc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ESTc.Designer.cs">
+      <DependentUpon>ESTc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ESTg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ESTg.Designer.cs">
+      <DependentUpon>ESTg.cs</DependentUpon>
+    </Compile>
     <Compile Include="estoque.cs">
       <SubType>Form</SubType>
     </Compile>

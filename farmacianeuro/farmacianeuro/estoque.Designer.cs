@@ -30,7 +30,6 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.visualizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.visualizarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.gerenciarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -50,30 +49,25 @@
             // visualizarToolStripMenuItem
             // 
             this.visualizarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.visualizarToolStripMenuItem1,
             this.gerenciarToolStripMenuItem1,
             this.cadastrarToolStripMenuItem1});
             this.visualizarToolStripMenuItem.Name = "visualizarToolStripMenuItem";
             this.visualizarToolStripMenuItem.Size = new System.Drawing.Size(76, 24);
             this.visualizarToolStripMenuItem.Text = "Estoque";
             // 
-            // visualizarToolStripMenuItem1
-            // 
-            this.visualizarToolStripMenuItem1.Name = "visualizarToolStripMenuItem1";
-            this.visualizarToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.visualizarToolStripMenuItem1.Text = "Visualizar";
-            // 
             // gerenciarToolStripMenuItem1
             // 
             this.gerenciarToolStripMenuItem1.Name = "gerenciarToolStripMenuItem1";
             this.gerenciarToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.gerenciarToolStripMenuItem1.Text = "Gerenciar";
+            this.gerenciarToolStripMenuItem1.Click += new System.EventHandler(this.gerenciarToolStripMenuItem1_Click);
             // 
             // cadastrarToolStripMenuItem1
             // 
             this.cadastrarToolStripMenuItem1.Name = "cadastrarToolStripMenuItem1";
             this.cadastrarToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.cadastrarToolStripMenuItem1.Text = "Cadastrar";
+            this.cadastrarToolStripMenuItem1.Click += new System.EventHandler(this.cadastrarToolStripMenuItem1_Click);
             // 
             // estoque
             // 
@@ -97,7 +91,6 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem visualizarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem visualizarToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem gerenciarToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem cadastrarToolStripMenuItem1;
     }
